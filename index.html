@@ -1,10 +1,184 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Welcome to My Website</title>
+<meta charset="UTF-8">
+<title>Md Shazid Islam | Machine Learning & Biomedical AI</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+    body {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+        margin: 0;
+        background: #f9f9f9;
+        color: #222;
+    }
+
+    /* Layout */
+    .container {
+        display: flex;
+        max-width: 1200px;
+        margin: auto;
+        padding: 20px;
+    }
+    .sidebar {
+        width: 280px;
+        background: white;
+        padding: 25px;
+        border-radius: 12px;
+        height: fit-content;
+        box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        position: sticky;
+        top: 20px;
+    }
+    .content {
+        flex: 1;
+        margin-left: 30px;
+    }
+
+    h1 { font-size: 32px; margin-bottom: 5px; }
+    h2 { margin-top: 40px; border-bottom: 2px solid #ddd; padding-bottom: 5px; }
+    h3 { margin-top: 15px; }
+
+    a { color: #0077cc; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    .section { margin-bottom: 40px; }
+
+    .pub-title { font-weight: 600; }
+    .pub-authors { font-style: italic; }
+    .pub-venue { color: #555; }
+
+    ul { margin-top: 5px; }
+</style>
 </head>
 <body>
-    <h1>Hello, I'm Araf!</h1>
-    <p>This is my personal website hosted on GitHub Pages.</p>
+
+<div class="container">
+    <!-- Sidebar -->
+    <div class="sidebar">
+        <h2>Md Shazid Islam</h2>
+        <p><strong>Ph.D. Candidate</strong><br>
+        Electrical & Computer Engineering<br>
+        UC Riverside</p>
+
+        <p>Email: <a href="mailto:misla048@ucr.edu">misla048@ucr.edu</a><br>
+        Phone: +1 951-573-2139</p>
+
+        <p>
+            <a href="#">Website</a><br>
+            <a href="#">GitHub</a><br>
+            <a href="#">LinkedIn</a><br>
+            <a href="#">Google Scholar</a>
+        </p>
+
+        <p><strong>Research Areas</strong></p>
+        <ul>
+            <li>Biomedical Image Analysis</li>
+            <li>Vision-Language Models</li>
+            <li>Domain Adaptation</li>
+            <li>Active Learning</li>
+            <li>Multimodal Learning</li>
+            <li>Computational Biology</li>
+        </ul>
+    </div>
+
+    <!-- Content Area -->
+    <div class="content">
+
+        <h1>About Me</h1>
+        <p>
+            I am a Ph.D. candidate specializing in machine learning, deep learning, and computer vision,
+            with a strong focus on biomedical image analysis. My research develops data-efficient and
+            reliable medical AI through domain adaptation, vision-language models, and active learning—
+            enabling systems that adapt to domain shifts and reduce annotation burdens. I also develop 
+            segmentation, tracking, and visualization pipelines for high-dimensional microscopy data.
+        </p>
+
+        <!-- Education -->
+        <h2>Education</h2>
+        <ul>
+            <li><strong>Ph.D., UC Riverside (2020–Present)</strong><br>
+                Electrical & Computer Engineering — Vision and Learning Group<br>
+                Advisor: Amit K. Roy-Chowdhury
+            </li>
+            <li><strong>M.Sc., BUET (2017–2020)</strong> — Electrical & Electronic Engineering (CGPA: 4.00)<br>
+                Advisor: S.M. Mahbubur Rahman
+            </li>
+            <li><strong>B.Sc., BUET (2013–2017)</strong> — Electrical & Electronic Engineering (CGPA: 3.89)<br>
+                Advisor: Mohammad Ariful Haque
+            </li>
+        </ul>
+
+        <!-- Research Projects -->
+        <h2>Selected Research Projects</h2>
+
+        <h3>DEGAST3D — 3D Graph-Based Plant Cell Tracking</h3>
+        <p>
+            Learning deformable 3D graph similarity for cell tracking in unregistered CLSM microscopy images.
+        </p>
+
+        <h3>ODES — Online Domain Adaptation with Expert Guidance</h3>
+        <p>
+            A source-free, single-pass online adaptation framework integrating expert-guided active learning 
+            and pseudo-label pruning to handle domain shifts in medical segmentation.
+        </p>
+
+        <h3>LINGUAL — Language-Guided Active Learning</h3>
+        <p>
+            A novel VLM-powered annotation refinement method that converts natural-language instructions into 
+            executable segmentation refinement programs, reducing annotation time by ~80%.
+        </p>
+
+        <h3>Plant Cell Analysis (3D + Time)</h3>
+        <p>
+            3D segmentation, reconstruction, registration, and spatio-temporal tracking of plant cells from CLSM imaging.
+        </p>
+
+        <h3>Medical VQA with Vision-Guided Verification</h3>
+        <p>
+            Integrating visual reasoning tools into chain-of-thought pipelines for more reliable clinical VQA.
+        </p>
+
+        <!-- Publications -->
+        <h2>Publications</h2>
+
+        <p><span class="pub-title">DEGAST3D: Learning Deformable 3D Graph Similarity to Track Plant Cells</span><br>
+        <span class="pub-authors">Md Shazid Islam et al.</span><br>
+        <span class="pub-venue">IEEE T-CBB, 2025</span></p>
+
+        <p><span class="pub-title">ODES: Online Domain Adaptation with Expert Guidance for Medical Segmentation</span><br>
+        <span class="pub-authors">Md Shazid Islam et al.</span><br>
+        <span class="pub-venue">MICCAI 2025</span></p>
+
+        <p><span class="pub-title">Synthesis of Dance by Learning Body Gestures from Music</span><br>
+        <span class="pub-authors">Md Shazid Islam, SM Mahbubur Rahman</span><br>
+        <span class="pub-venue">Multimedia Tools & Applications, 2025</span></p>
+
+        <p><span class="pub-title">LINGUAL: Language-INtegrated Guidance in Active Learning</span><br>
+        <span class="pub-authors">Md Shazid Islam et al.</span><br>
+        <span class="pub-venue">Under Review</span></p>
+
+        <!-- Awards -->
+        <h2>Honors & Awards</h2>
+        <ul>
+            <li>Dean’s Distinguished Fellowship — UC Riverside</li>
+            <li>Dean’s List Scholarship — BUET</li>
+            <li>Merit Scholarship — BUET</li>
+        </ul>
+
+        <!-- Courses -->
+        <h2>Graduate Coursework</h2>
+        <ul>
+            <li>Advanced Computer Vision</li>
+            <li>Pattern Recognition</li>
+            <li>Deep Learning</li>
+            <li>Stochastic Processes</li>
+            <li>Information Theory</li>
+            <li>State & Parameter Estimation</li>
+            <li>Convex Optimization</li>
+        </ul>
+
+    </div>
+</div>
+
 </body>
 </html>
